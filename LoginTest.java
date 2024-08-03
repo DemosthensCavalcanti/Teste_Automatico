@@ -10,7 +10,7 @@ public class LoginTest extends BaseTest {
     public void testLogin() {
         driver.get("http://provaqa.prc.rpe.tech:9080/desafioqa/");
 
-        // Preenche o formulário de login
+        // login
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
