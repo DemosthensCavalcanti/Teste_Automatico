@@ -11,12 +11,12 @@ public class TransacaoTest extends BaseTest {
     public void testTransacao() {
         driver.get("http://provaqa.prc.rpe.tech:9080/desafioqa/");
 
-        // Realiza o login
+        // login
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
 
-        // Navega para a página de transação
+        // transação
         driver.findElement(By.linkText("QA")).click();
         driver.findElement(By.linkText("Transações")).click();
         driver.findElement(By.linkText("Incluir")).click();
