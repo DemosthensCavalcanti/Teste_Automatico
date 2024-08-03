@@ -36,12 +36,12 @@ Para executar os testes, utilize o seguinte comando na raiz do projeto:
 
 Os resultados dos testes serão exibidos no console e você poderá ver quais testes passaram ou falharam.
 
-Funcionalidades Testadas
-Login: Verifica se o login com credenciais válidas é bem-sucedido.
-Cadastro de Cliente: Testa o processo de cadastro de um novo cliente, verificando se os dados são salvos corretamente.
-Transação: Automatiza a realização de uma transação, garantindo que o saldo do cliente seja suficiente.
-Contribuições
-Sinta-se à vontade para contribuir com melhorias ou correções. Abra uma issue ou envie um pull request!
+Funcionalidades Testadas<br>
+Login: Verifica se o login com credenciais válidas é bem-sucedido.<br>
+Cadastro de Cliente: Testa o processo de cadastro de um novo cliente, verificando se os dados são salvos corretamente.<br>
+Transação: Automatiza a realização de uma transação, garantindo que o saldo do cliente seja suficiente.<br>
+Contribuições<br>
+Sinta-se à vontade para contribuir com melhorias ou correções. Abra uma issue ou envie um pull request!<br>
 
 Contribuições
 Contribuições são bem-vindas!
