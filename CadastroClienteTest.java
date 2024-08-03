@@ -11,17 +11,17 @@ public class CadastroClienteTest extends BaseTest {
     public void testCadastroCliente() {
         driver.get("http://provaqa.prc.rpe.tech:9080/desafioqa/");
 
-        // Realiza o login
+        // login
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
 
-        // Navega para a página de cadastro de cliente
+        // cadastro de cliente
         driver.findElement(By.linkText("QA")).click();
         driver.findElement(By.linkText("Clientes")).click();
         driver.findElement(By.linkText("Incluir")).click();
 
-        // Preenche o formulário de cadastro de cliente
+        // cadastro de cliente
         driver.findElement(By.name("nome")).sendKeys("Cliente Teste");
         driver.findElement(By.name("cpf")).sendKeys("12345678900");
         Select statusSelect = new Select(driver.findElement(By.name("status")));
