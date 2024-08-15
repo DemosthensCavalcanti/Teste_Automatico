@@ -50,6 +50,6 @@ Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias ou 
 Licença<br>
 Este projeto está licenciado sob a MIT License.
 
-Autor
-Demosthens Cavalcanti
+Autor<br>
+Demosthens Cavalcanti<br>
 https://www.linkedin.com/in/demosthens-cavalcanti-4a0b9627b/ | demosthenscf@gmail.com
